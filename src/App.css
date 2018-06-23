@@ -1,0 +1,22 @@
+.App {
+  margin: 0 auto;
+  text-align: center
+}
+
+.alignLeft {
+  float: left;
+  margin: 20px
+}
+
+button {
+  background-color: blue;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+button:focus {
+  outline:0
+}
+

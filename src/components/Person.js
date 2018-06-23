@@ -5,7 +5,7 @@ class Person extends Component {
     render() {
         return (
             <div className='name'>
-                <p> {this.props.name} </p>
+                <div> {this.props.name} </div>
             </div>
         )
     }

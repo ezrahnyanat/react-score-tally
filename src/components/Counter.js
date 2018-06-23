@@ -52,16 +52,14 @@ class Counter extends Component {
   render() {
     return (
         <div>
-            <p> {this.state.score} </p>
-            <div>
-                <button onClick={this.plusOne}> + 1 </button>
-                <button onClick={this.plusTwo}> + 2 </button>
-                <button onClick={this.plusThree}> + 3 </button>
-                <button onClick={this.plusFour}> + 4 </button>
-                <button onClick={this.plusFive}> + 5 </button>
-                <button onClick={this.minusOne}> - 1 </button>
-                <button onClick={this.reset}> Reset </button>
-            </div>
+            <div className='score'> {this.state.score} </div>
+            <button onClick={this.plusOne}>+ 1</button>
+            <button onClick={this.plusTwo}>+ 2</button>
+            <button onClick={this.plusThree}>+ 3</button>
+            <button onClick={this.plusFour}>+ 4</button>
+            <button onClick={this.plusFive}>+ 5</button>
+            <button onClick={this.minusOne}>- 1</button>
+            <button onClick={this.reset}>Reset</button>
         </div>
     )
   }

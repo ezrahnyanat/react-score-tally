@@ -17,7 +17,7 @@ class App extends Component {
             <Counter />
           </div>
           <div className='alignLeft'>
-            <Person name='Dawna' />
+            <Person name='Donna' />
             <Counter />
           </div>
           <div className='alignLeft'>
